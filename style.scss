@@ -1,0 +1,22 @@
+$primaryColor: #13e293;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background: linear-gradient(#dfdfdf, #474747);
+  .nav-item {
+    display: flex;
+  }
+}
