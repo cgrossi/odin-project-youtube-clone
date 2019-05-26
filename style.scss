@@ -18,6 +18,13 @@ body {
   background: white;
   box-shadow: 0 3px 3px rgba(238, 238, 238, 0.6);
 
+  .nav-item-search-btn {
+    background-color: #f8f8f8;
+    padding: 0 20px;
+    border: none;
+    border-left: 1px solid #d3d3d3;
+  }
+
   .nav-item-link {
     display: flex;
     justify-content: center;
@@ -53,18 +60,6 @@ body {
     padding-left: 15px;
     font-size: 1.05rem;
     box-shadow: inset 0px 0px 1px #d3d3d3;
-  }
-
-  .nav-item-search-btn {
-    background-image: url(images/search.png);
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #f8f8f8;
-    width: 20%;
-    padding: 0 20px;
-    border: none;
-    border-left: 1px solid #d3d3d3;
   }
 }
 
