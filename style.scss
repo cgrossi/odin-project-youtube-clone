@@ -63,6 +63,21 @@ body {
   }
 }
 
+.video-stats,
+.video-creator,
+.comments-sort,
+.comment,
+.comment-box,
+.content,
+.up-next,
+.video-box {
+  display: flex;
+}
+
+.comment-box {
+  flex-direction: column;
+}
+
 @media (max-width: 610px) {
   .nav {
     .nav-item-search,
