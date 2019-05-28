@@ -32,7 +32,7 @@ body {
   }
 
   .nav-item-center {
-    width: 100%;
+    width: 35vw;
     display: flex;
     border: 1px solid #d3d3d3;
     border-radius: 2px;
@@ -72,6 +72,10 @@ body {
 .up-next,
 .video-box {
   display: flex;
+}
+
+.content {
+  width: 100vw;
 }
 
 .comment-box {
