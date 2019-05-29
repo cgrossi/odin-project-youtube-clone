@@ -8,6 +8,16 @@ $primaryColor: #13e293;
 
 body {
   font-family: sans-serif;
+  color: rgb(24, 24, 24);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
 }
 
 .nav {
@@ -64,18 +74,131 @@ body {
 }
 
 .video-stats,
-.video-creator,
 .comments-sort,
 .comment,
 .comment-box,
-.content,
-.up-next,
-.video-box {
+.content {
   display: flex;
 }
 
 .content {
-  width: 100vw;
+  width: 85vw;
+  margin: 27px auto;
+  main {
+    width: 70%;
+    padding-right: 20px;
+    .video {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+    }
+
+    .video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  aside {
+    width: 30%;
+    padding-left: 10px;
+  }
+
+  .video-title {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .video-thumb {
+    width: 44%;
+  }
+
+  .video-text {
+    width: 56%;
+  }
+  .video-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  .video-text h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .video-text p {
+    font-size: 0.8rem;
+  }
+
+  .video-stats,
+  .video-creator {
+    justify-content: space-between;
+    padding-top: 10px;
+
+    .user-icon {
+      margin-right: 10px;
+    }
+    .user-title {
+      font-weight: 600;
+    }
+  }
+}
+
+.up-next {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-box {
+  display: flex;
+  align-items: center;
+}
+
+.video-thumb img {
+  padding-right: 9px;
+  width: 100%;
+  height: auto;
+}
+
+.creator-user {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.creator-user-left {
+  display: flex;
+}
+
+.subscribe {
+  text-transform: uppercase;
+  span {
+    text-decoration: none;
+    padding: 10px 17px;
+    background: red;
+    color: white;
+  }
+}
+
+.posted-date {
+  font-weight: 200;
+  color: grey;
+}
+
+.video-description {
+  padding-top: 11px;
+  margin: 0 80px;
+  p {
+    margin-bottom: 10px;
+  }
 }
 
 .comment-box {
