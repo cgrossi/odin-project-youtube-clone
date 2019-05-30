@@ -74,11 +74,13 @@ h5 {
 }
 
 .video-stats,
-.comments-sort,
-.comment,
 .comment-box,
 .content {
   display: flex;
+}
+
+hr {
+  margin: 5px 0 15px 0;
 }
 
 .content {
@@ -203,6 +205,52 @@ h5 {
 
 .comment-box {
   flex-direction: column;
+}
+
+.comments-sort {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.comments-sort > p {
+  padding-right: 40px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 45px;
+}
+
+.comment-box-name {
+  display: flex;
+}
+.comment-box-social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.comment-box-social img {
+  margin-right: 8px;
+}
+
+.comment-box-user-name {
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-box-name p {
+  color: grey;
+}
+
+.comment-box p {
+  margin-bottom: 10px;
+}
+
+.user-icon img {
+  padding-right: 10px;
 }
 
 @media (max-width: 610px) {
