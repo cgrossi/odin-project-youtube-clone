@@ -128,12 +128,10 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 0;
   }
   .video-text h3 {
     padding: 0;
     margin: 0;
-    margin-bottom: 10px;
   }
   .video-text p {
     font-size: 0.8rem;
@@ -156,12 +154,11 @@ hr {
 .up-next {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .video-box {
   display: flex;
-  align-items: center;
+  margin-bottom: 10px;
 }
 
 .video-thumb img {
